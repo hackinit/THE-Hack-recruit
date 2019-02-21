@@ -21,10 +21,15 @@ For the recruiment of THE Hack 2019 Tech Department
 ### 测试内容
 写一个简单的 To-do List
 
-包含功能：
+> Tips:Tech Dept.中负责开发的可分为四个方向：前端/后端/运维/安全测试；  
+  根据你选择的不同的方向，在阅读代码的时候我们会有不同的侧重点
+
+**最低功能需求**：
 - 用户注册/登录/更新个人信息
 - 添加/编辑/删除 to-do item
 - 标记 to-do item 为已完成
+
+**可选（加分项）**：
 - 为 to-do item 添加 deadline
 - 对 to-do item 进行顺序显示（按照deadline，按照添加顺序，正序，倒序）
 
@@ -39,7 +44,8 @@ For the recruiment of THE Hack 2019 Tech Department
     - 你最熟悉的技术栈
     - 你想要在Tech Dept.中担任的方向（前端/后端/运维/安全测试）
 
-> Tips: 方向可以多选
+> Tips: 方向可以多选  
+  选择前端方向且没有选择后端方向的可以**只写出静态页面**
 
 ### 我们关注的东西
 - 代码能不能跑起来（废话
