@@ -1,0 +1,2 @@
+usr: root
+pwd: passwd
