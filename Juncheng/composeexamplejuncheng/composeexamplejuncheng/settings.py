@@ -25,7 +25,7 @@ SECRET_KEY = 'fo*2z$#xdbiar+uj-^b6urjx-$l)pjl&n56#j2(wp6%ajug7km'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'composeexample.urls'
+ROOT_URLCONF = 'composeexamplejuncheng.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'composeexample.wsgi.application'
+WSGI_APPLICATION = 'composeexamplejuncheng.wsgi.application'
 
 
 # Database
