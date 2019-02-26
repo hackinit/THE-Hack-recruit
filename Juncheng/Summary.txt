@@ -1,2 +1,9 @@
+Django superuser
+
 usr: root
 pwd: passwd
+
+Docker image usage
+
+docker run -dit -p 8000:8000 juncheng34/composeexamplejuncheng_web:v2
+this site is at http://localhost:8000
