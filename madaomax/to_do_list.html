@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>to-do list</title>
+        <!--production version of vue.js-->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.8/dist/vue.js"></script>
+        <!--applying semantic ui-->
+        <link href="semantic/semantic.css" rel="stylesheet" type="text/css"/>
+        <style>
+         #app{
+            margin-top: 15px;
+            text-align: center;
+         }
+         #list{
+           margin-left: 20px;
+           margin-right: 20px;
+         }
+         </style>
+    </head>
+    <body>
+      <!--enabling the content to adjust automatically-->
+      <div id="app" class="ui very padded text container segment">
+          <h1 class="ui canter aligned icon header">
+            <i class="circular paperclip icon"></i>
+            <div class="ui hidden divider" style="margin:5px"></div>
+            TO-DO LIST
+          </h1>
+          <div class="ui hidden divider" style="margin:5px"></div>
+          <!-- the to-do list-->
+            <div id="list">
+                <ol>
+                  <todo-item
+                      v-for="item in list"
+                      :content="item"
+                      @delete="todoDelete"
+                  ></todo-item>
+                </ol>
+            </div>
+            <!--adding new to-do items-->
+            <div class="ui action input">
+                <input type="text" placeholder="More things to do? ;)" v-model="txt" @keyup.enter="todoSubmit">
+                <button @click="todoSubmit" class="ui button">Add</button>
+            </div>
+            <div class="end">
+                <div class="ui hidden divider" style="margin:15px"></div>
+                <i class="code icon"></i> with <i class="heart icon"></i> by madaomax
+            </div>
+      </div>
+      <!--引用js-->
+      <script src="to_do_list.js"></script>
+    </body>
+</html>
