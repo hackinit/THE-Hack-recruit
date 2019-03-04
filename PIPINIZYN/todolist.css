@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-color: #f4f9f4;
+}
+header {
+    height: 50px;
+    background-color: #5c8d89;
+  }
+header section {
+    margin: 0 auto;
+    width: 60%;
+}
+header section label {
+    line-height: 50px;
+    width: 300px;
+    font-size: 24px;
+    font-family: Helvetica,Arial,sans-serif;
+    color: #f4f9f4;
+  }
+header input {
+    float: right;
+    width: 60%;
+    height: 24px;
+    margin-top: 12px;
+    text-indent: 10px;
+    border-radius: 5px;
+  }
+section {
+    margin: auto;
+    width: 60%;
+}
+h2  {
+    color: #5c8d89;
+}
+h2 span  {
+    color: #5c8d89;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    font-size: 18px;
+    text-align: center;
+    background: #a7d7c5;
+}
+ul li  {
+    list-style-type: none;
+}
+ul li p  {
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+    float: left;
+}
+ul li input  {
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+ul li span  {
+    color: #5c8d89;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    font-size: 18px;
+    text-align: center;
+    background: #a7d7c5;
+    position: relative;
+    left: 30px;
+}
+section button  {
+    font-size: 14px;
+    background: #5c8d89;
+    -moz-border-radius: 14px;
+	  -webkit-border-radius: 14px;
+	  border-radius: 14px;
+    height: 50px;
+    text-align: center;
+}
+section button h3  {
+    position: relative;
+    bottom: 3px;
+    color: #f4f9f4;
+}
+#clear {
+    text-align: center
+}
