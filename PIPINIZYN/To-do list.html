@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+
+  <header>
+    <section>
+      <label for="add_list">To Do List</label>
+      <input type="text" id="add_list" name="add_list" placeholder="在此键入To-do" required>
+    </section>
+  </header>
+
+  <section class="content">
+    <h2>未完成
+      <ul id="todolist">
+      </ul>
+    </h2>
+    <h2>已完成
+      <ul id="donelist">
+      </ul>
+    </h2>
+  </section>
+
+  <section id = "clear">
+    <button onclick="clear1()">
+      <h3>clear</h3>
+    </button>
+  </section>
+
+  <script src="todolist.js"></script>
+
+</body>
